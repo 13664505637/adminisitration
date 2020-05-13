@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yuyang.adminisitration.dao.XzglDcCpMapper">
+  <resultMap id="BaseResultMap" type="com.yuyang.adminisitration.entity.XzglDcCp">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="c_id" jdbcType="INTEGER" property="cId" />
+    <result column="c_createby" jdbcType="VARCHAR" property="cCreateby" />
+    <result column="c_createtime" jdbcType="TIMESTAMP" property="cCreatetime" />
+    <result column="c_deleted" jdbcType="INTEGER" property="cDeleted" />
+    <result column="c_updateby" jdbcType="VARCHAR" property="cUpdateby" />
+    <result column="c_updatetime" jdbcType="TIMESTAMP" property="cUpdatetime" />
+    <result column="C_name" jdbcType="VARCHAR" property="cName" />
+    <result column="C_price" jdbcType="DOUBLE" property="cPrice" />
+    <result column="preset_time" jdbcType="INTEGER" property="presetTime" />
+    <result column="c_remark" jdbcType="VARCHAR" property="cRemark" />
+    <result column="c_status" jdbcType="INTEGER" property="cStatus" />
+    <result column="c_stock_num" jdbcType="INTEGER" property="cStockNum" />
+    <result column="c_parent_id" jdbcType="INTEGER" property="cParentId" />
+    <result column="c_unit" jdbcType="VARCHAR" property="cUnit" />
+    <result column="limit_num" jdbcType="INTEGER" property="limitNum" />
+    <result column="limit_toatl_num" jdbcType="INTEGER" property="limitToatlNum" />
+    <result column="c_sales_num" jdbcType="INTEGER" property="cSalesNum" />
+    <result column="c_stars" jdbcType="REAL" property="cStars" />
+  </resultMap>
+</mapper>

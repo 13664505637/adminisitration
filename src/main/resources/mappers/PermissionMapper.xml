@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yuyang.adminisitration.dao.PermissionMapper">
+  <resultMap id="BaseResultMap" type="com.yuyang.adminisitration.entity.Permission">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="p_id" jdbcType="INTEGER" property="pId" />
+    <result column="p_name" jdbcType="VARCHAR" property="pName" />
+    <result column="p_description" jdbcType="VARCHAR" property="pDescription" />
+    <result column="p_url" jdbcType="VARCHAR" property="pUrl" />
+    <result column="p_perms" jdbcType="VARCHAR" property="pPerms" />
+    <result column="p_parent_id" jdbcType="INTEGER" property="pParentId" />
+    <result column="p_type" jdbcType="INTEGER" property="pType" />
+    <result column="p_status" jdbcType="INTEGER" property="pStatus" />
+    <result column="p_create_time" jdbcType="TIMESTAMP" property="pCreateTime" />
+    <result column="p_update_time" jdbcType="TIMESTAMP" property="pUpdateTime" />
+  </resultMap>
+</mapper>

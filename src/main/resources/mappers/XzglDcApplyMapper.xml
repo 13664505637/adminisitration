@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yuyang.adminisitration.dao.XzglDcApplyMapper">
+  <resultMap id="BaseResultMap" type="com.yuyang.adminisitration.entity.XzglDcApply">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="c_id" jdbcType="INTEGER" property="cId" />
+    <result column="c_createby" jdbcType="VARCHAR" property="cCreateby" />
+    <result column="c_createtime" jdbcType="TIMESTAMP" property="cCreatetime" />
+    <result column="c_deleted" jdbcType="INTEGER" property="cDeleted" />
+    <result column="c_updateby" jdbcType="INTEGER" property="cUpdateby" />
+    <result column="c_updatetime" jdbcType="TIMESTAMP" property="cUpdatetime" />
+    <result column="c_user_id" jdbcType="INTEGER" property="cUserId" />
+    <result column="c_apply_user" jdbcType="VARCHAR" property="cApplyUser" />
+    <result column="c_apply_content" jdbcType="VARCHAR" property="cApplyContent" />
+    <result column="c_issue_time" jdbcType="TIMESTAMP" property="cIssueTime" />
+    <result column="c_status" jdbcType="INTEGER" property="cStatus" />
+  </resultMap>
+</mapper>
